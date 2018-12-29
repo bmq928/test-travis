@@ -4,4 +4,4 @@ node_js: 10
 scripts:
   - npm install 
   - npm test
-  - curl http://06cde80d.ngrok.io/
+  - ./deploy.sh
