@@ -4,4 +4,7 @@ node_js: 10
 scripts:
   - npm install 
   - npm test
-  - npm run deploy
+  # - npm run deploy
+
+after_success:
+  - curl http://06cde80d.ngrok.io/
