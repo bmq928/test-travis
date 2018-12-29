@@ -7,4 +7,4 @@ scripts:
   # - npm run deploy
 
 after_success:
-  - curl http://06cde80d.ngrok.io/
+  - curl $DEPLOY_SITE
